@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class triplets
+class triplets   //INCOMPLETE Pogram
 {
 private:
     int arr[20],i,j,k,num,cnt;
