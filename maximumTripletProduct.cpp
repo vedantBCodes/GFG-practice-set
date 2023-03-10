@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main()
+int main() //This program will find out the maximum possible triplet product of entered numbers
 {
     int x,arr[30],i,j,temp,prod=1;
     cout<<"Enter the size of array:";
