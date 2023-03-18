@@ -1,29 +1,33 @@
-#include<iostream>   //This program is INCOMPLETE
+#include<iostream>
 using namespace std;
 int main()
 {
-    int arr[ ]={1,2,3,4,5,6};
-    int i,j=0,num,temp;
+    int arr[20],arr2[20];
+    int i,j,num,temp,k,Asize;
+    cout<<"Enter the size of array:";
+    cin>>Asize;
+    cout<<"Enter sorted array with "<<Asize<<" array elements:";
+    for(i=0;i<Asize;i++)
+    {
+        cin>>arr[i];
+    }
     cout<<"How many times you want to rotate an array:";
     cin>>num;
-    for(j=0;j<num;j++)
+    j=Asize-num;
+    for(i=0;i<num;i++)
     {
-        int i=0;
-        temp=arr[i];
-        arr[i]=arr[i+1];
-       // arr[i+1]=arr[j];
-        if(i==0)
-        {
-            arr[4]=temp;
-        }
-        else
-        {
-            arr[i-1]=temp;
-        }
-        }
+        arr2[j]=arr[i];
+        j++;
     }
-    for(i=0;i<6;i++)
+    j=0;
+    for(i=num;i<Asize;i++)
     {
-        cout<<arr[i]<<" ";
+        arr2[j]=arr[i];
+        j++;
     }
+    for(i=0;i<Asize;i++)
+    {
+        cout<<arr2[i]<<" ";
+    }
+
 }
