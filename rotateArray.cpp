@@ -29,5 +29,4 @@ int main()
     {
         cout<<arr2[i]<<" ";
     }
-
 }
