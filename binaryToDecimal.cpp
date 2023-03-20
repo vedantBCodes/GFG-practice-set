@@ -1,10 +1,9 @@
 #include<iostream>
 using namespace std;
-main()               //program to convert binary number into decimal number
+                        //program to convert binary number into decimal number
+process(int z)
 {
-    int a,b,c,d=1,x,y=0,z,no,i,cnt=0;
-    cout<<"enter a binary no:";
-    cin>>z;
+    int a,b,c,d=1,x,y=0,no,i,cnt=0;
     a=z;
     while(a>0)
     {
@@ -26,5 +25,13 @@ main()               //program to convert binary number into decimal number
     }
     }
     cout<<"the decimal conversion of binary number "<<z<<" is:"<<y;
+}
+int main()
+{
+    int num;
+    cout<<"enter a binary no:";
+    cin>>num;
+    process(num);
+    return 0;
 }
 
