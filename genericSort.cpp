@@ -5,16 +5,16 @@ You need to sort elements of an array where the array can be of following data-t
  2.Character
  3.floating number
   
-The input line contains 2 lines. The first line contains n(size of array) and q(type of array) separated by space.
+You have to enter n(size of array) and q(type of array).
 Below is the description about q.
 
    q = 1, means elements of the array are of integer type
    q = 2, means elements of the array are of character type
    q = 3, means elements of array are of floating digit type  
 
-The second line contains n elements of the array separated by space.
+Then you have to enter n elements of the array of type q separated by space.
 
-We have to print the elements in sorted form of given type of array separated by space.
+This program will print the elements in sorted form of given type of array separated by space.
 */
 #include<iostream>
 using namespace std;
