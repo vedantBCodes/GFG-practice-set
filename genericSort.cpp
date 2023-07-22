@@ -85,7 +85,7 @@ int main()
     cin>>n;
     cout<<"Enter the type of array:\n   1 for integer type\n   2 for floating type\n   3 for character type\n----->";
     cin>>q;
-    while((q<=1)||(q>=3))
+    while((q<1)||(q>3))
     {
         cout<<"Invalid option"<<endl;
         cout<<"Please enter a valid option"<<endl;
