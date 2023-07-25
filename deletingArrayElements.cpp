@@ -8,6 +8,9 @@ Input : arr[ ] = {20, 10, 25, 30, 40}
         and K = 2
 Output : 25 30 40
 
+Input :arr[ ] = {50, 45, 37, 40, 38, 55, 70}
+        and k = 2
+Output : 50 45 40 55 70
 */
 #include<iostream>
 using namespace std;
