@@ -20,7 +20,7 @@ a2[] is a subset of a1[]
 
 #include <iostream>
 using namespace std;
-bool checkArray(int arr1[], int arr2[], int x, int y)
+bool checkForSubset(int arr1[], int arr2[], int x, int y)
 {
     int cnt = 0;
     for (int i = 0; i < y; i++)
@@ -47,7 +47,7 @@ bool checkArray(int arr1[], int arr2[], int x, int y)
 int main()
 {
     int arr1[] = {11, 7, 1, 31, 21, 3, 7, 3}, arr2[] = {21, 3, 7, 1, 7}, x = 8, y = 5;
-    if (checkArray(arr1, arr2, x, y) == true)
+    if (checkForSubset(arr1, arr2, x, y) == true)
     {
         cout << "arr2 is a subset of arr1";
     }
