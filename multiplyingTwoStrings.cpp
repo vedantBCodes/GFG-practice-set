@@ -24,7 +24,7 @@ int  stringToInteger(char str[])
    int x;
    for(int i=0;i<strLength;i++)
    {
-      x=int(str[i]);  //Here value of x will be the ascii value of str1[i]
+      x=int(str[i]);  //Here value of x will be the ascii value of str1[i] (TYPE CASTING)
       x-=48;  //ASCII value of 0-9 ranges from 48 to 57
       num=x+(num*10);
    }
